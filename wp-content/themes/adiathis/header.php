@@ -5,6 +5,7 @@
 		<title><?php the_title(); ?></title>
 		<!-- css -->
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Dosis|Quicksand:400,700' rel='stylesheet' type='text/css'>
 		<?php wp_head(); ?>
 
 		<!-- favicon -->

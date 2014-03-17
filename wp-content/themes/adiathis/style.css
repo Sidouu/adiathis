@@ -159,9 +159,9 @@ header {
     border-top: 5px solid #1870ba;
 }
 
-.home header {
+/*.home header {
 	border-bottom: 1px solid #CFCFCF;
-}
+}*/
 
 header .content {
 	padding: 0px 30px;
@@ -325,7 +325,6 @@ header .content {
     font-size: 18px;
     text-transform: uppercase;
     margin: 0 auto;
-    font-family: 'Quicksand', sans-serif;
     vertical-align:  middle;
     line-height:  39px;
 }
@@ -342,9 +341,7 @@ header .content {
     text-transform: uppercase;
     color: #FFF;
     font-weight: normal;
-    font-family: 'Quicksand', sans-serif;
     font-size:  36px;
-    /*line-height: 40px;*/
     text-align: center;
     margin-bottom: 0;
 }

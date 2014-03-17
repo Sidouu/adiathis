@@ -28,4 +28,16 @@ function getPostsByCategory($atts, $content = null) {
     return $out;
 }
 add_shortcode("posts-by-category", "getPostsByCategory");
+
+function getCategories() {
+    $args = array(
+      'orderby' => 'name',
+      'parent' => 0
+      );
+    $categories = get_categories( $args );
+    foreach ( $categories as $category ) {
+        echo '<a href="' . get_category_link( $category->term_id ) . '">' . $category->name . '</a><br/>';
+    }
+}
+add_shortcode("categories", "getCategories");
 ?>
