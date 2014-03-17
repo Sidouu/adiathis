@@ -32,12 +32,18 @@ add_shortcode("posts-by-category", "getPostsByCategory");
 function getCategories() {
     $args = array(
       'orderby' => 'name',
-      'parent' => 0
+      'parent' => 0,
+      'hide_empty' => 0,
+      'exclude' => '1,3'
       );
     $categories = get_categories( $args );
+    echo '<ul class="listThemes">';
     foreach ( $categories as $category ) {
-        echo '<a href="' . get_category_link( $category->term_id ) . '">' . $category->name . '</a><br/>';
+        echo '<li>';
+        echo '<a href="' . get_category_link( $category->term_id ) . '">' . $category->name . '</a>';
+        echo '</li>';
     }
+    echo '</ul>';
 }
 add_shortcode("categories", "getCategories");
 ?>
