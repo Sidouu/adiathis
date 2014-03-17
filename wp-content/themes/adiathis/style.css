@@ -377,6 +377,12 @@ header .content {
     border-bottom: 1px dashed #CFCFCF;
 }
 
+/* FORMATIONS */
+
+.listThemes li {
+    margin-bottom: 10px;
+}
+
 /* FORM */
 
 #wpcf7-f36-p17-o1 {

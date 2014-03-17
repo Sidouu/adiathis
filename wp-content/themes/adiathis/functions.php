@@ -40,7 +40,7 @@ function getCategories() {
     echo '<ul class="listThemes">';
     foreach ( $categories as $category ) {
         echo '<li>';
-        echo '<a href="' . get_category_link( $category->term_id ) . '">' . $category->name . '</a>';
+        echo '<a href="' . get_category_link( $category->term_id ) . '">' . '> '.$category->name . '</a>';
         echo '</li>';
     }
     echo '</ul>';
