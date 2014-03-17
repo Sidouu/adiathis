@@ -36,7 +36,7 @@
 				<div class="footer-bottom">
 					<div class="content clear-fix">
 						<div class="pull-left">
-							<p>Copyright 2013 MaPrépa concours | Mentions légales</p>
+							<p>Copyright 2014 Adiathis | <a href="">Mentions légales</a></p>
 						</div>
 						<div class="pull-right">
 						</div>
