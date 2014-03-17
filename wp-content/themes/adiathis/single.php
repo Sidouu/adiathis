@@ -1,18 +1,17 @@
 <?php get_header(); ?>
-<div class="main single">
+<div class="wrap-main">
     <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
-            <div class="post">
-                <h1 class="post-title"><?php the_title(); ?></h1>
-                <p class="post-info">
-                    Posté le <?php the_date(); ?> dans <?php the_category(', '); ?> par <?php the_author(); ?>.
-                </p>
-                <div class="post-content">
+            <div class="content">
+                <div class="detailsNews">
+                    <h1 class="title">
+                        <?php the_title(); ?>
+                        <span class="line"></span>
+                    </h1>
                     <?php the_content(); ?>
+                    <p>Posté le <?php the_date(); ?>.</p>
                 </div>
-                <div class="post-comments">
-                    <?php comments_template(); ?>
-                </div>
+                <p><a href="?page_id=38"><strong>> Retour aux actualités</strong></a></p>
             </div>
         <?php endwhile; ?>
     <?php endif; ?>

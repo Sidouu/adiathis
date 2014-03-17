@@ -184,7 +184,7 @@ header .content {
 	color: #1870ba;
     font-size: 10pt;
     line-height: 120px;
-    padding: 0 15px;
+    padding: 0 12px;
     text-decoration: none;
 }
 
@@ -279,10 +279,24 @@ header .content {
 	width: 400px;
 }
 
+/* NEWS */
+
+.listNews li {
+    border-bottom: 1px dashed #CFCFCF;
+    padding-bottom: 20px;
+}
+
+.listNews li:last-child {
+    border-bottom: 0;
+}
+
+.detailsNews {
+    border-bottom: 1px dashed #CFCFCF;
+}
+
 /* FORM */
 
-#contactform {
-    width: 400px;
+#wpcf7-f36-p17-o1 {
     margin-top: 40px;
 }
 
@@ -300,10 +314,11 @@ header .content {
 
 .controls label {
     float: left;
+    width: 15%;
 }
 
-.controls input {
-    float: right;
+.controls input.css-y {
+    float: left;
     border: 1px solid #E5E5E5;
     padding: 10px;
     font-family: 'PT Sans';
@@ -313,7 +328,7 @@ header .content {
 }
 
 .controls textarea {
-    float: right;
+    float: left;
     border: 1px solid #E5E5E5;
     padding: 10px;
     font-family: 'PT Sans';
@@ -321,6 +336,25 @@ header .content {
     color: #58595B;
     width: 250px;
     height: 150px;
+}
+
+span.wpcf7-not-valid-tip {
+    color: #f00;
+    font-size: 1em;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+div.wpcf7-validation-errors {
+    border: 0 !important;
+    color: #f00;
+    background-color: #fdeae9;
+}
+
+div.wpcf7-response-output {
+    margin: 10px 0 !important;
+    padding: 5px !important;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
