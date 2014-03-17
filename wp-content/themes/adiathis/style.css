@@ -279,6 +279,92 @@ header .content {
 	width: 400px;
 }
 
+/* HOME */
+
+#home-table {
+    position: relative;
+    display: block;
+}
+
+.bloc-img {
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.formations.bloc-img {
+    background: url("../adiathis/images/visuel1.png") no-repeat;
+}
+
+.coaching.bloc-img {
+    background: url("../adiathis/images/visuel2.png") no-repeat;
+}
+
+.bloc-color {
+    width: 360px;
+    height: 236px;
+    padding: 60px 60px 5px;
+}
+
+.formations .bloc-color {
+    background-color: rgba(9,128,184,0.9);
+}
+
+.coaching .bloc-color {
+    background-color: rgba(246,36,90,0.9);
+}
+
+
+.bloc-color .seeMore {
+    display: block;
+    width: 130px;
+    height: 39px;
+    background-color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    vertical-align:  middle;
+    line-height:  39px;
+}
+
+.formations .seeMore {
+    color: rgba(9,128,184,0.9);
+}
+
+.coaching .seeMore {
+    color: rgba(246,36,90,0.9);
+}
+
+.bloc-color h1 {
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+    font-size:  36px;
+    /*line-height: 40px;*/
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.bloc-color .sep {
+    display: block;
+    height: 1px;
+    width: 35px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
 /* NEWS */
 
 .listNews li {

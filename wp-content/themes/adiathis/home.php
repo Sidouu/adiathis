@@ -23,7 +23,7 @@ get_header(); ?>
 
 		<span class="shadow-bloc"></span>
 	</section>
-	<div class="content"></div>
+	<!-- <div class="content"></div> -->
 </div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
