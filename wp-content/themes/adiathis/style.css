@@ -160,10 +160,6 @@ header {
     border-top: 5px solid #1870ba;
 }
 
-/*.home header {
-	border-bottom: 1px solid #CFCFCF;
-}*/
-
 header .content {
 	padding: 0px 30px;
 }
@@ -506,6 +502,10 @@ div.wpcf7-response-output {
 #map_canvas {
     height: 300px;
     width: 900px;
+}
+
+.page-id-17 .wrap-main .content {
+    padding-bottom: 0;
 }
 
 /* FOOTER */
