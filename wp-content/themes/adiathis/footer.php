@@ -24,17 +24,17 @@
 								<div class="clear-fix">
 									<div class="bloc-plan pull-left">
 										<ul class="ulPlan">
-											<li>Accueil</li>
-											<li>Formations</li>
-											<li>Coaching</li>
-											<li>Planning</li>
+											<li><a href="/adiathis">Accueil</a></li>
+											<li><a href="formations">Formations</a></li>
+											<li><a href="coaching">Coaching</a></li>
+											<li><a href="planning">Planning</a></li>
 										</ul>
 									</div>
 									<div class="bloc-plan pull-left">
 										<ul class="ulPlan">
-											<li>La société</li>
-											<li>Actualités</li>
-											<li>Contact</li>
+											<li><a href="la-societe">La société</a></li>
+											<li><a href="actualites">Actualités</a></li>
+											<li><a href="contact">Contact</a></li>
 										</ul>
 									</div>
 								</div>
