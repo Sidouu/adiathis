@@ -377,6 +377,10 @@ header .content {
 
 /* FORMATIONS */
 
+.path , .path a{
+    color: #1870ba;
+}
+
 .listThemes {
     
 }
