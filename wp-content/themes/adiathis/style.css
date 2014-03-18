@@ -102,6 +102,7 @@ h1.title {
     font-size: 14pt;
     border-bottom: 1px solid #CFCFCF;
     padding: 5px 0 10px;
+    margin-bottom: 20px;
 }
 
 h3.title {
@@ -268,7 +269,7 @@ header .content {
 }
 
 .wrap-main {
-	min-height: 500px;
+	min-height: 440px;
 	color: #58595B;
     width: 960px;
     margin: 0 auto;

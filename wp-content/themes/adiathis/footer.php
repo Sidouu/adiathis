@@ -43,7 +43,7 @@
 						<div class="column">
 							<div class="about">
 								<h3 class="title">
-									Social
+									Partenaires
 									<span class="line"></span>
 								</h3>
 								<p></p>
