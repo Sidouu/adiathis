@@ -46,4 +46,6 @@ function getCategories() {
     echo '</div>';
 }
 add_shortcode("categories", "getCategories");
+
+add_theme_support('post-thumbnails');
 ?>

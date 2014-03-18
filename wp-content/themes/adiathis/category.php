@@ -8,7 +8,11 @@
             <?php single_cat_title(); ?>
             <span class="line"></span>
         </h1>
-        <div class="headerImg"></div>
+        <?php if(z_taxonomy_image_url($cur_cat_id)){ ?>
+			<div class="headerImg">
+				<img src="<?php echo z_taxonomy_image_url($cur_cat_id); ?>" width="900" height="200" alt=""> 
+			</div>
+		<?php } ?>
         <?php echo category_description(); ?>
     </div>
 </div>

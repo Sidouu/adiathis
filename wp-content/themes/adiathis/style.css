@@ -378,9 +378,6 @@ header .content {
 /* FORMATIONS */
 
 .headerImg {
-    background-image: url("images/headerImg.png");
-    width: 900px;
-    height: 200px;
     margin-bottom: 20px;
 }
 
