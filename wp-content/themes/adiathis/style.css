@@ -377,6 +377,27 @@ header .content {
 
 /* FORMATIONS */
 
+.headerImg {
+    background-image: url("images/headerImg.png");
+    width: 900px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.category table tr td {
+    padding-right: 20px;
+}
+
+.category table tr td:last-child {
+    padding-right: 0;
+}
+
+.category .wrap-main .content li {
+    list-style: initial;
+    list-style-type: disc; 
+    list-style-position: inside; 
+}
+
 .path {
     color: #1870ba;
     border-right: 4px solid #1870ba;

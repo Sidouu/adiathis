@@ -8,6 +8,7 @@
             <?php single_cat_title(); ?>
             <span class="line"></span>
         </h1>
+        <div class="headerImg"></div>
         <?php echo category_description(); ?>
     </div>
 </div>
