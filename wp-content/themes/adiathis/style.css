@@ -552,6 +552,14 @@ footer {
     transition: all 0.3s ease-in-out 0s;
 }
 
+.bloc-plan {
+    width: 120px;
+}
+
+.ulPlan li {
+    margin-bottom: 10px;
+}
+
 #facebook {
 	background: url("../img/social/facebook.png") no-repeat scroll 0 0 transparent;
 }

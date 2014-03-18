@@ -4,31 +4,49 @@
 						<div class="column">
 							<div class="about">
 								<h3 class="title">
-									About Us
+									Nous contacter
 									<span class="line"></span>
 								</h3>
-								<p>Consectetur adipiscing elit aeneane lorem lipsum, condimentum ultrices consequat eu, vehicula mauris lipsum adipiscing lipsum aenean orci lorem Asequat.<br />
-								lorem ipsum dolor lorem sit amet, consectetur adipiscing dolor.</p>
+								<p>Adiathis</p>
+								<p>16 rue Guy de Combaud <br />
+								71240 Sennecey le Grand</p>
+								<p>Tél. : 06 33 00 38 13<br />
+								Fax : 09 78 19 89 85</p>
+								<p><a href="mailto:formation@adiathis.fr" title="Contact Adiathis">formation@adiathis.fr</a></p>
 							</div>
 						</div>
 						<div class="column">
 							<div class="about">
 								<h3 class="title">
-									About Us
+									Plan du site
 									<span class="line"></span>
 								</h3>
-								<p>Consectetur adipiscing elit aeneane lorem lipsum, condimentum ultrices consequat eu, vehicula mauris lipsum adipiscing lipsum aenean orci lorem Asequat.<br />
-								lorem ipsum dolor lorem sit amet, consectetur adipiscing dolor.</p>
+								<div class="clear-fix">
+									<div class="bloc-plan pull-left">
+										<ul class="ulPlan">
+											<li>Accueil</li>
+											<li>Formations</li>
+											<li>Coaching</li>
+											<li>Planning</li>
+										</ul>
+									</div>
+									<div class="bloc-plan pull-left">
+										<ul class="ulPlan">
+											<li>La société</li>
+											<li>Actualités</li>
+											<li>Contact</li>
+										</ul>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="column">
 							<div class="about">
 								<h3 class="title">
-									About Us
+									Social
 									<span class="line"></span>
 								</h3>
-								<p>Consectetur adipiscing elit aeneane lorem lipsum, condimentum ultrices consequat eu, vehicula mauris lipsum adipiscing lipsum aenean orci lorem Asequat.<br />
-								lorem ipsum dolor lorem sit amet, consectetur adipiscing dolor.</p>
+								<p></p>
 							</div>
 						</div>
 					</div>
@@ -36,7 +54,7 @@
 				<div class="footer-bottom">
 					<div class="content clear-fix">
 						<div class="pull-left">
-							<p>Copyright 2014 Adiathis | <a href="">Mentions légales</a></p>
+							<p>Copyright 2014 Adiathis | <a href="mentions-legales" title="Mentions légales">Mentions légales</a></p>
 						</div>
 						<div class="pull-right">
 						</div>
