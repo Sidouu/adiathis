@@ -37,13 +37,13 @@ function getCategories() {
       'exclude' => '1,3'
       );
     $categories = get_categories( $args );
-    echo '<ul class="listThemes">';
+    echo '<div class="listThemes clear-fix">';
     foreach ( $categories as $category ) {
-        echo '<li>';
-        echo '<a href="' . get_category_link( $category->term_id ) . '">' . '> '.$category->name . '</a>';
-        echo '</li>';
+        echo '<a href="' . get_category_link( $category->term_id ) . '" class="">';
+        echo '<div class="bgC">' .$category->name . '</div>';
+        echo '</a>';
     }
-    echo '</ul>';
+    echo '</div>';
 }
 add_shortcode("categories", "getCategories");
 ?>
