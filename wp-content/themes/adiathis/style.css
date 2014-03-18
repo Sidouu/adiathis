@@ -384,19 +384,34 @@ header .content {
     background-color: #EEEEEE;
     margin-right: -4px;
     float: right;
+    -webkit-transition: all 0.10s ease-in-out 0s;
+    -moz-transition: all 0.10s ease-in-out 0s;
+    -ms-transition: all 0.10s ease-in-out 0s;
+    -o-transition: all 0.10s ease-in-out 0s;
+    transition: all 0.10s ease-in-out 0s;
+}
+
+.path a {
+    color: #1870ba;
+    -webkit-transition: all 0.10s ease-in-out 0s;
+    -moz-transition: all 0.10s ease-in-out 0s;
+    -ms-transition: all 0.10s ease-in-out 0s;
+    -o-transition: all 0.10s ease-in-out 0s;
+    transition: all 0.10s ease-in-out 0s;
 }
 
 .path:hover {
     background-color: #1870ba;
     color: #FFFFFF;
+    -moz-box-shadow: 0px 0px 20px 0px #CFCFCF;
+    -webkit-box-shadow: 0px 0px 20px 0px #CFCFCF;
+    -o-box-shadow: 0px 0px 20px 0px #CFCFCF;
+    box-shadow: 0px 0px 20px 0px #CFCFCF;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#CFCFCF, Direction=NaN, Strength=20);
 }
 
 .path:hover a {
     color: #FFFFFF;
-}
-
-.path a {
-    color: #1870ba;
 }
 
 .listThemes {
@@ -412,11 +427,21 @@ header .content {
     height: 30px;
     line-height: 30px;
     float: left;
+    -webkit-transition: all 0.10s ease-in-out 0s;
+    -moz-transition: all 0.10s ease-in-out 0s;
+    -ms-transition: all 0.10s ease-in-out 0s;
+    -o-transition: all 0.10s ease-in-out 0s;
+    transition: all 0.10s ease-in-out 0s;
 }
 
 .bgC:hover {
     background: none repeat scroll 0 0 #1870ba;
     color: #FFFFFF;
+    -moz-box-shadow: 0px 0px 20px 0px #CFCFCF;
+    -webkit-box-shadow: 0px 0px 20px 0px #CFCFCF;
+    -o-box-shadow: 0px 0px 20px 0px #CFCFCF;
+    box-shadow: 0px 0px 20px 0px #CFCFCF;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#CFCFCF, Direction=NaN, Strength=20);
 }
 
 /* FORM */
