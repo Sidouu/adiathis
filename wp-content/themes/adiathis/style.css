@@ -72,7 +72,7 @@ a {
 /* CONTENT STYLES */
 
 .content {
-	padding: 10px 30px;
+	padding: 10px 30px 20px;
 }
 
 .pull-left {
@@ -377,7 +377,25 @@ header .content {
 
 /* FORMATIONS */
 
-.path , .path a{
+.path {
+    color: #1870ba;
+    border-right: 4px solid #1870ba;
+    padding: 5px;
+    background-color: #EEEEEE;
+    margin-right: -4px;
+    float: right;
+}
+
+.path:hover {
+    background-color: #1870ba;
+    color: #FFFFFF;
+}
+
+.path:hover a {
+    color: #FFFFFF;
+}
+
+.path a {
     color: #1870ba;
 }
 
