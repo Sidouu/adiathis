@@ -14,7 +14,7 @@
 		<link rel="shortcut icon" type="image/x-icon" href="" />
 
 		<!-- js -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	</head>
 	<body <?php body_class(); ?>>
 		<header>
