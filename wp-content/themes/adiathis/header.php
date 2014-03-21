@@ -20,7 +20,7 @@
 		<header>
 			<div class="content clear-fix">
 				<div class="pull-left">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Adiathis" class="logo">
+					<a href="<?php echo home_url(); ?>" title="Adiathis"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Adiathis" class="logo"></a>
 				</div>
 				<div class="pull-right">
 					<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'menu_id' => 'nav' ) ); ?>
