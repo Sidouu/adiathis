@@ -5,25 +5,26 @@
 
 get_header(); ?>
 <div class="wrap-main">
-	<section id="home-table">
-		<div class="clearfix bloc-img formations">
-			<div class="left bloc-color">
-				<h1>Formations</h1>
-				<span class="sep"></span>
-				<a href="formations" class="seeMore">en savoir +</a>
+	<div class="content">
+		<section class="clear-fix">
+			<div class="home-bloc pull-left">
+				<div class="home-img home-img-coaching"></div>
+				<div class="home-bloc-content">
+					<h2>Formations</h2>
+					<span class="sep"></span>
+					<a href="formations" class="seeMore">En savoir +</a>
+				</div>
 			</div>
-		</div>
-		<div class="clearfix bloc-img coaching">
-			<div class="right bloc-color">
-				<h1>Coaching</h1>
-				<span class="sep"></span>
-				<a href="coaching" class="seeMore">en savoir +</a>
+			<div class="home-bloc pull-left">
+				<div class="home-img home-img-formations"></div>
+				<div class="home-bloc-content">
+					<h2>Coaching</h2>
+					<span class="sep"></span>
+					<a href="coaching" class="seeMore">En savoir +</a>
+				</div>
 			</div>
-		</div>
-
-		<span class="shadow-bloc"></span>
-	</section>
-	<!-- <div class="content"></div> -->
+		</section>
+	</div>
 </div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

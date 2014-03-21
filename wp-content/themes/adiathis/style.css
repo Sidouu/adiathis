@@ -278,86 +278,75 @@ header .content {
 
 /* HOME */
 
-#home-table {
-    position: relative;
-    display: block;
+.home header {
+    border-bottom: 1px solid #CFCFCF;
 }
 
-.bloc-img {
-    height: 300px;
-    width: 100%;
-    position: relative;
+.home .wrap-main .content {
+    padding: 50px 0 50px;
 }
 
-.formations.bloc-img {
-    background: url("../adiathis/images/visuel2.png") no-repeat;
+.home-bloc {
+    height: auto;
 }
 
-.coaching.bloc-img {
-    background: url("../adiathis/images/visuel1.png") no-repeat;
+section .home-bloc:first-child {
+    background-color: #1870ba;
+    margin: 0 30px 0 50px;
 }
 
-.bloc-color {
-    width: 360px;
-    height: 236px;
-    padding: 60px 60px 5px;
+section .home-bloc:last-child {
+    background-color: #f6245a;
+    margin: 0 50px 0 30px;
 }
 
-.formations .bloc-color {
-    background-color: rgba(9,128,184,0.9);
-}
-
-.coaching .bloc-color {
-    background-color: rgba(246,36,90,0.9);
-}
-
-
-.bloc-color .seeMore {
-    display: block;
-    width: 130px;
-    height: 39px;
-    color: #fff;
-    font-weight: bold;
-    text-align: center;
-    font-size: 18px;
-    text-transform: uppercase;
+.home-img {
+    width: 400px;
+    height: 231px;
     margin: 0 auto;
-    vertical-align:  middle;
-    line-height:  39px;
-    border: 2px solid;
 }
 
-.formations .seeMore {
-    /*color: rgba(9,128,184,0.9);*/
+.home-img-coaching {
+    background: url("../adiathis/images/visu1.png") no-repeat;
 }
 
-.coaching .seeMore {
-    /*color: rgba(246,36,90,0.9);*/
+.home-img-formations {
+    background: url("../adiathis/images/visu2.png") no-repeat;
 }
 
-.bloc-color h1 {
-    text-transform: uppercase;
-    color: #FFF;
-    font-weight: normal;
-    font-size:  36px;
+.home-bloc-content {
     text-align: center;
-    margin-bottom: 0;
+    padding: 10px 0 40px 0;
+    color: #FFFFFF;
 }
 
-.bloc-color .sep {
+.home-bloc-content .sep {
     display: block;
-    height: 1px;
+    height: 3px;
     width: 35px;
-    background-color: #fff;
-    margin: 20px auto;
+    background-color: #FFFFFF;
+    margin: 30px auto;
+    margin-top: 20px;
 }
 
-.right {
-    float: right;
+.home-bloc-content .seeMore {
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 5px 8px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
-.left {
-    float: left;
+section .home-bloc:first-child .seeMore:hover {
+    color: #1870ba;
+    border: 2px solid #1870ba;
+    background-color: #FFFFFF;
+}
+
+section .home-bloc:last-child .seeMore:hover {
+    color: #f6245a;
+    border: 2px solid #f6245a;
+    background-color: #FFFFFF;
 }
 
 /* NEWS */
