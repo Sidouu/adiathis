@@ -20,6 +20,13 @@ get_header(); ?>
                     <?php the_title(); ?>
                     <span class="line"></span>
                 </h1>
+                <?php 
+                    if ( has_post_thumbnail() ) {
+                ?>
+                <div class="headerImg">
+                    <?php the_post_thumbnail(); ?>
+                 </div>
+                 <?php } ?>
                 <?php the_content(); ?>
             </div>
         <?php endwhile; ?>
