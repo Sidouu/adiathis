@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--[if gt IE 8]><html class="ie8"><![endif]-->
 <html>
 	<head <?php language_attributes(); ?>>
 		<meta charset="<?php bloginfo('charset'); ?>">
@@ -17,7 +18,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	</head>
 	<body <?php body_class(); ?>>
-		<header>
+		<div id="header">
 			<div class="content clear-fix">
 				<div class="pull-left">
 					<a href="<?php echo home_url(); ?>" title="Adiathis"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Adiathis" class="logo"></a>
@@ -26,4 +27,4 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'menu_id' => 'nav' ) ); ?>
 				</div>
 			</div>
-		</header>
+		</div>

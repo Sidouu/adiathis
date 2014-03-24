@@ -13,9 +13,13 @@ Tags: simple
 body {
     margin: 0;
 	padding: 0;
-	font-family: 'PT Sans';
+	font-family: 'PT Sans', Arial;
 	font-size: 10pt;
     background: #EEEEEE;
+}
+
+.ie8 body {
+    font-size: 9pt;
 }
 
 img {
@@ -98,7 +102,7 @@ a {
 
 h1.title {
 	color: #1870ba;
-    font-family: 'PT Sans';
+    font-family: 'PT Sans', Arial;
     font-size: 14pt;
     border-bottom: 1px solid #CFCFCF;
     padding: 5px 0 10px;
@@ -107,7 +111,7 @@ h1.title {
 
 h3.title {
 	color: #58595B;
-    font-family: 'PT Sans';
+    font-family: 'PT Sans', Arial;
     font-size: 12pt;
     border-bottom: 1px solid #CFCFCF;
     padding: 5px 0 10px;
@@ -151,7 +155,7 @@ h3.title {
 
 /* HEADER */
 
-header {
+#header {
     height: 120px;
     width: 960px;
     margin: 0 auto;
@@ -160,7 +164,7 @@ header {
     border-top: 5px solid #1870ba;
 }
 
-header .content {
+#header .content {
 	padding: 0px 30px;
 }
 
@@ -278,7 +282,7 @@ header .content {
 
 /* HOME */
 
-.home header {
+.home #header {
     border-bottom: 1px solid #CFCFCF;
 }
 
@@ -290,12 +294,12 @@ header .content {
     height: auto;
 }
 
-section .home-bloc:first-child {
+.home-section .home-bloc.bloc-left {
     background-color: #1870ba;
     margin: 0 30px 0 50px;
 }
 
-section .home-bloc:last-child {
+.home-section .home-bloc.bloc-right {
     background-color: #f6245a;
     margin: 0 50px 0 30px;
 }
@@ -337,13 +341,13 @@ section .home-bloc:last-child {
     font-size: 14px;
 }
 
-section .home-bloc:first-child .seeMore:hover {
+.home-section .home-bloc.bloc-left .seeMore:hover {
     color: #1870ba;
     border: 2px solid #1870ba;
     background-color: #FFFFFF;
 }
 
-section .home-bloc:last-child .seeMore:hover {
+.home-section .home-bloc.bloc-right .seeMore:hover {
     color: #f6245a;
     border: 2px solid #f6245a;
     background-color: #FFFFFF;
@@ -488,7 +492,7 @@ section .home-bloc:last-child .seeMore:hover {
     float: left;
     border: 1px solid #E5E5E5;
     padding: 10px;
-    font-family: 'PT Sans';
+    font-family: 'PT Sans', Arial;
     font-size: 10pt;
     color: #58595B;
     width: 250px;
@@ -498,7 +502,7 @@ section .home-bloc:last-child .seeMore:hover {
     float: left;
     border: 1px solid #E5E5E5;
     padding: 10px;
-    font-family: 'PT Sans';
+    font-family: 'PT Sans', Arial;
     font-size: 10pt;
     color: #58595B;
     width: 250px;
@@ -541,7 +545,7 @@ div.wpcf7-response-output {
     border: 0;
     cursor: pointer;
     padding: 8px 10px;
-    font-family: 'PT Sans';
+    font-family: 'PT Sans', Arial;
 }
 
 .btn-blue {
@@ -573,10 +577,6 @@ div.wpcf7-response-output {
 }
 
 /* FOOTER */
-
-footer {
-
-}
 
 .footer-top {
 	background-color: #F6F3F3;

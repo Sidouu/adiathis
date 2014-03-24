@@ -6,8 +6,8 @@
 get_header(); ?>
 <div class="wrap-main">
 	<div class="content">
-		<section class="clear-fix">
-			<div class="home-bloc pull-left">
+		<div class="home-section clear-fix">
+			<div class="home-bloc bloc-left pull-left">
 				<div class="home-img home-img-coaching"></div>
 				<div class="home-bloc-content">
 					<h2>Formations</h2>
@@ -15,7 +15,7 @@ get_header(); ?>
 					<a href="formations" class="seeMore">En savoir +</a>
 				</div>
 			</div>
-			<div class="home-bloc pull-left">
+			<div class="home-bloc bloc-right pull-left">
 				<div class="home-img home-img-formations"></div>
 				<div class="home-bloc-content">
 					<h2>Coaching</h2>
@@ -23,7 +23,7 @@ get_header(); ?>
 					<a href="coaching" class="seeMore">En savoir +</a>
 				</div>
 			</div>
-		</section>
+		</div>
 	</div>
 </div>
 <?php get_sidebar(); ?>

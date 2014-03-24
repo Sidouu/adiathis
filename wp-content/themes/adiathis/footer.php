@@ -1,4 +1,4 @@
-			<footer>
+			<div id="footer">
 				<div class="footer-top">
 					<div class="content">
 						<div class="column">
@@ -60,7 +60,7 @@
 						</div>
 					</div>
 				</div>
-			</footer>
+			</div>
 			<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/main.js"></script>
     	<?php wp_footer(); ?>
 	</body>
