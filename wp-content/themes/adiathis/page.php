@@ -32,5 +32,4 @@ get_header(); ?>
         <?php endwhile; ?>
     <?php endif; ?>
 </div>
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

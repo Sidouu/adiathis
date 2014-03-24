@@ -468,7 +468,8 @@ h3.title {
 /* FORM */
 
 #wpcf7-f36-p17-o1 {
-    margin-top: 40px;
+    float: left;
+    width: 66%;
 }
 
 .controls:after {
@@ -574,6 +575,18 @@ div.wpcf7-response-output {
 
 .page-id-17 .wrap-main .content {
     padding-bottom: 0;
+}
+
+/* WIDGET */
+
+.page-id-17 .widget {
+    float: right;
+    width: 33%;
+    text-align: right;
+}
+
+h2.widgettitle {
+    margin: 0;
 }
 
 /* FOOTER */
